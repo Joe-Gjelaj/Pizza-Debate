@@ -210,12 +210,7 @@ img{
 	border-radius: 2000px;
 }
 
-nav{
-	float: right;
-	margin-top: 100px;
-}
-
-ul{
+#facts{
 	float: right;
 	margin-top: 10%;
 	margin-right: 10%;
