@@ -59,3 +59,81 @@
 }
 
 /* End of header and nav styling */
+
+/* Zack Eidman index.html styling */
+#mainwrap {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#title {
+	font-size: 12em;
+	text-align: center;
+	margin: 150px auto 0 auto;
+	-webkit-transition-property:color, text;
+	-webkit-transition-duration: 1s, 1s;
+	-webkit-transition-timing-function: linear, ease-in;
+	-moz-transition-property:color, text;
+	-moz-transition-duration:1s;
+	-moz-transition-timing-function: linear, ease-in;
+
+	-o-transition-property:color, text;
+	-o-transition-duration:1s;
+	-o-transition-timing-function: linear, ease-in;
+}
+
+#title:hover {
+	color: #ffd700;
+}
+
+#choices {
+	width: 900px;
+	margin-top: 55px;
+}
+
+
+.circle {
+	float: left;
+	width: 375px;
+	height: 375px;
+	border-radius: 100%;
+	margin: 0 ;
+	transition: box-shadow 1s ease;
+}
+
+.circle:hover {
+	box-shadow: 8px 8px 8px #000;
+}
+
+#question {
+	float: left;
+	text-align: center;
+	margin: 0 0;
+	width: 125px;
+	height: 375px;
+	vertical-align: middle;
+}
+
+#question img {
+	margin-top: 165px;
+}
+
+
+.divwrapper{
+	float:left;
+	width:400px;
+}
+
+#nyc {
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: #000;
+}
+
+#chicago {
+	background-image: url(../images/chicago.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: #000;
+}
+/* end ZackEidman index.html styling */
