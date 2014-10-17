@@ -1,0 +1,61 @@
+/* Start nav bar styling */
+
+#wrapper {
+	width: 900px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.header-bar {
+	width: 100%;
+	height: fit;
+	background-color: red;
+	opacity: .9;
+	border-radius: 0 0 3px 3px;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}
+
+.header-bar-box {
+	height: 50px;
+	width: fit;
+	float: left;
+	opacity: 1;
+}
+
+#logo {
+	margin: 5px 0 0 30px;
+}
+
+
+#nav {
+	float: right;
+	margin-right: 30px;
+}
+
+#nav ul {
+	list-style-type: none;
+}
+
+#nav li {
+	display: inline;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+
+#nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 19px;
+	opacity: 1;
+	transition: color .5s ease;
+}
+
+#nav a:hover {
+	color: yellow;
+}
+
+/* End of header and nav styling */
