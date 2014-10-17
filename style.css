@@ -67,7 +67,7 @@
 }
 
 #title {
-	font-size: 12em;
+	font-size: 6em;
 	text-align: center;
 	margin: 150px auto 0 auto;
 	-webkit-transition-property:color, text;
@@ -137,3 +137,60 @@
 	background-color: #000;
 }
 /* end ZackEidman index.html styling */
+
+.mainContext{
+	width: 900px;
+	margin: 0 auto;
+
+	width: 900px;
+	margin-top: 55px;
+}
+
+
+.circle {
+	float: left;
+	width: 375px;
+	height: 375px;
+	border-radius: 100%;
+	margin: 0 ;
+	transition: box-shadow 1s ease;
+}
+
+.circle:hover {
+	box-shadow: 8px 8px 8px #000;
+}
+
+#question {
+	float: left;
+	text-align: center;
+	margin: 0 0;
+	width: 125px;
+	height: 375px;
+	vertical-align: middle;
+}
+
+#question img {
+	margin-top: 165px;
+}
+
+
+.divwrapper {
+	float:left;
+	width:400px;
+}
+
+#nyc {
+	background-image: url(images/newyork.jpg);
+	background-repeat: no-repeat;
+	background-position: 25% 0%;
+	background-color: #000;
+
+}
+
+#chicago {
+	background-image: url(images/chicago.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: #000;
+}
+/* end zack eidman index.html styling */
